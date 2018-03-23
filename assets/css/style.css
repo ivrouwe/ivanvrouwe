@@ -16,16 +16,21 @@ body {
 header {
 	max-width: 40rem;
 	margin: 0 auto;
-	padding: 2rem 1rem 1rem 1rem;
+	padding: 2rem 1rem 0.5rem 1rem;
 	border-bottom: 0.2rem solid #52523a;
 	background-color: #11d617;
 	text-align: center;
 }
 
-main {
+main,
+aside {
+	max-width: 60rem;
+	margin: 0 auto;
+	padding: 0 0.5rem;
 }
 
 footer {
+	padding: 0 0.5rem 1rem 0.5rem;
 	text-align: center;
 }
 
@@ -49,5 +54,11 @@ h1 {
 @media (min-width: 40em) {
 	header {
 		border: 0.2rem solid #52523a;
+	}
+}
+
+@media (min-width: 60em) {
+	body > * + * {
+		margin-top: 3rem;
 	}
 }
