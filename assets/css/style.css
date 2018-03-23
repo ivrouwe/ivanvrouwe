@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+	background-color: #b7b2b2;
+}
+
+header {
+	max-width: 40rem;
+	margin: 0 auto;
+	padding: 2rem 1rem 1rem 1rem;
+	border-bottom: 0.2rem solid #52523a;
+	background-color: #11d617;
+	text-align: center;
+}
+
+main {
+}
+
+footer {
+	text-align: center;
+}
+
+footer address {
+	font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-align: center;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+@media (min-width: 40em) {
+	header {
+		border: 0.2rem solid #52523a;
+	}
+}
